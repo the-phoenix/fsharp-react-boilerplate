@@ -1,0 +1,25 @@
+{
+  "name": "fsharp-react-boilerplate",
+  "version": "0.1.0",
+  "description": "React in F# using Fable",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "fable",
+    "watch": "fable -w --target watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "fable-compiler": "^0.7.50",
+    "fable-react": "^0.8.5",
+    "source-map-loader": "^0.2.0",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "core-js": "^2.4.1",
+    "fable-core": "^0.7.29",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
